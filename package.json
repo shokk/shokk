@@ -1,6 +1,6 @@
 {
   "name": "shokk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Ernest Oporto's terminal business card (@shokk)",
   "main": "bin.js",
   "type": "module",
