@@ -1,0 +1,53 @@
+{
+  "name": "shokk",
+  "version": "1.0.4",
+  "description": "Ernest Oporto's terminal business card (@shokk)",
+  "main": "bin.js",
+  "type": "module",
+  "bin": {
+    "shokk": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shokk/shokk.git"
+  },
+  "homepage": "https://www.shokk.com",
+  "scripts": {
+    "prepublish": "npm run build",
+    "pub": "npm publish",
+    "build": "node build.mjs",
+    "dev": "npm run build && node ./bin.js",
+    "devout": "npm run build && node ./bin.js && cat output",
+    "format": "npx @biomejs/biome format --write",
+    "lint": "npx @biomejs/biome lint --write",
+    "check": "npx @biomejs/biome check --write",
+    "start": "node ./bin.js"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "cli",
+    "npx card",
+    "business card",
+    "business-card"
+  ],
+  "author": "Ernest Oporto <ernieoporto@shokk.com> (http://www.shokk.com)",
+  "license": "MIT",
+  "files": [
+    "bin.js",
+    "output"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.2",
+    "boxen": "^7.1.1",
+    "chalk": "^5.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/bnb/shokk/issues"
+  }
+}
