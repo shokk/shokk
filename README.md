@@ -12,12 +12,6 @@ It's me, Ernie!
 npx shokk
 ```
 
-## GitHub Package Registry
-Assuming you have the GitHub registry set up, you can use via npx:
-```
-npx @shokk/card
-```
-
 ## Tech Specs
 
 Built with Node.js
