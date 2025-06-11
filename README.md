@@ -20,6 +20,6 @@ Built with Node.js
 
 Inspired by [Tierney Cyren's bitandbang](https://github.com/bnb/bitandbang) and [Ashley Willis's ashleywillis](https://github.com/ashleymcnamara/ashley.dev-card)
 
-##License
+## License
 
 MIT
